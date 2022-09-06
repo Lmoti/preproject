@@ -1,0 +1,38 @@
+.modal {
+    background-color: #fff;
+    padding: 1rem;
+    margin: 2rem auto;
+    width: 50rem;
+    max-width: 95%;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  }
+  
+  .new-modal button {
+    font: inherit;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border: 1px solid #3e4a52;
+    background-color: #3e4a52;
+    color: white;
+    border-radius: 12px;
+    margin-right: 1rem;
+  }
+  
+  .new-modal button:hover,
+  .new-modal button:active {
+    background-color: #3e4a52;
+    border-color: #3e4a52;
+  }
+  
+  .new-modal button.alternative {
+    color: #220131;
+    border-color: transparent;
+    background-color: transparent;
+  }
+  
+  .new-modal button.alternative:hover,
+  .new-modal button.alternative:active {
+    background-color: #ddb3f8;
+  }
